@@ -1,0 +1,51 @@
+:root {
+    --border-r: .5rem
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 3rem 0;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--prime);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ol,
+ul {
+    margin: 0 0 .5rem 0;
+    padding: 0 0 0 1.3rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.1rem;
+}
+li + li {
+    margin-top: 1rem;
+}
+
+ol li {
+    font-weight: 600;
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+
+

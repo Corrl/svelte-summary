@@ -1,0 +1,119 @@
+
+:root {
+    --code-fs: .85rem;
+    --h1: 3.2rem;
+    --h2: 1.4rem;
+    --h3: 1.3rem;
+    --h4: .9rem;
+    --h5: 1.6rem;
+    --h6: 1.4rem;
+}
+
+body {
+    --font: 'Overpass', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    --font-mono: 'Fira Mono', monospace;
+    font: 300 16px var(--font);
+    line-height: 1.5;
+    background-color: var(--back);
+    color: var(--text);
+}
+
+@font-face {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Overpass Light '), local('Overpass-Light'),
+    url('../fonts/Overpass-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Overpass Regular'), local('Overpass-Regular'),
+    url('../fonts/Overpass-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Overpass SemiBold'), local('Overpass-SemiBold'),
+    url('../fonts/Overpass-SemiBold.woff2') format('woff2');
+}
+
+
+@font-face {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Overpass Bold'), local('Overpass-Bold'),
+    url('../fonts/Overpass-Bold.woff2') format('woff2');
+}
+
+/* fira-mono-400normal - latin */
+@font-face {
+    font-family: 'Fira Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Fira Mono Regular '), local('Fira Mono-Regular'),
+    url('../fonts/FiraMono-Regular.woff2') format('woff2');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    position: relative;
+    margin: 0;
+    font-family: var(--font);
+}
+
+h1 {
+    font-size: var(--h1);
+}
+
+h2 {
+    font-size: var(--h2);
+}
+
+h3 {
+    font-size: var(--h3);
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: var(--h4);
+    font-weight: normal;
+}
+
+h5 {
+    font-size: var(--h5);
+}
+
+h6 {
+    font-size: var(--h6);
+}
+
+p {
+    margin: 0 0 .5rem 0;
+    font-size: 1.1rem;
+}
+
+.b,
+b,
+strong {
+    font-weight: 600;
+}
+
+
+::selection {
+    background: var(--flash);
+    color: white;
+}
+
+
+
