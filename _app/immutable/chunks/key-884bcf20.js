@@ -1,0 +1,11 @@
+import{S as g,i as v,s as y,C as i,w as x,x as $,y as w,z as b,A as u,q as C,o as E,B as S,N as d,e as _,t as K,k as R,c as m,a as f,h as q,d as p,m as H,b as P,g as r,H as j,E as z}from"./index-26167588.js";import{S as A}from"./Section-6b147be5.js";import"./index-6967b286.js";import"./Tutorial-ee6e922e.js";function B(c){let e,n,o,s,t=`<code class="language-html">&#123;#key value&#125;
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">></span></span>
+    Recreated whenever 'value' changes
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Component</span><span class="token punctuation">></span></span>
+    Reinstantiated and reinitialised whenever 'value' changes
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Component</span><span class="token punctuation">></span></span>
+
+&#123;/key&#125;</code>`;return{c(){e=_("p"),n=K("Key blocks destroy and recreate their contents when the value of an expression changes."),o=R(),s=_("pre"),this.h()},l(a){e=m(a,"P",{});var l=f(e);n=q(l,"Key blocks destroy and recreate their contents when the value of an expression changes."),l.forEach(p),o=H(a),s=m(a,"PRE",{class:!0});var k=f(s);k.forEach(p),this.h()},h(){P(s,"class","language-html")},m(a,l){r(a,e,l),j(e,n),r(a,o,l),r(a,s,l),s.innerHTML=t},p:z,d(a){a&&p(e),a&&p(o),a&&p(s)}}}function L(c){let e,n;const o=[c[0],h];let s={$$slots:{default:[B]},$$scope:{ctx:c}};for(let t=0;t<o.length;t+=1)s=i(s,o[t]);return e=new A({props:s}),{c(){x(e.$$.fragment)},l(t){$(e.$$.fragment,t)},m(t,a){w(e,t,a),n=!0},p(t,[a]){const l=a&1?b(o,[a&1&&u(t[0]),a&0&&u(h)]):{};a&2&&(l.$$scope={dirty:a,ctx:t}),e.$set(l)},i(t){n||(C(e.$$.fragment,t),n=!0)},o(t){E(e.$$.fragment,t),n=!1},d(t){S(e,t)}}}const h={layout:"section",id:"key",h:"{#key ...}",docs:"https://svelte.dev/docs#template-syntax-key",tutorials:["https://svelte.dev/tutorial/key-blocks"]};function M(c,e,n){return c.$$set=o=>{n(0,e=i(i({},e),d(o)))},e=d(e),[e]}class G extends g{constructor(e){super(),v(this,e,M,L,y,{})}}export{G as default,h as metadata};

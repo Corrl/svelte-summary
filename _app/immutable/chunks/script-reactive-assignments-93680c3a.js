@@ -1,0 +1,24 @@
+import{S as j,i as S,s as E,C as v,w as A,x as T,y as C,z as R,A as y,q,o as H,B as N,N as b,e as k,t as m,k as O,c as d,a as _,h as f,d as u,m as P,b as z,g,H as i,E as B}from"./index-26167588.js";import{S as G}from"./Section-6b147be5.js";import"./index-6967b286.js";import"./Tutorial-ee6e922e.js";function L(r){let s,p,t,l,a,n,o,x=`<code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+    <span class="token keyword">let</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">function</span> <span class="token function">modifyCount</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+        count <span class="token operator">=</span> count <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
+        <span class="token comment">// or</span>
+        count <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token punctuation">&#125;</span>
+
+    <span class="token keyword">let</span> arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+
+    <span class="token keyword">function</span> <span class="token function">modifyArr</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+        arr<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span>
+        arr <span class="token operator">=</span> arr <span class="token comment">// important</span>
+        <span class="token comment">// or</span>
+        arr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token operator">...</span>arr<span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">]</span>
+    <span class="token punctuation">&#125;</span>
+
+    <span class="token keyword">let</span> obj <span class="token operator">=</span> <span class="token punctuation">&#123;</span><span class="token literal-property property">a</span><span class="token operator">:</span> <span class="token string">'a'</span><span class="token punctuation">&#125;</span>
+
+    <span class="token keyword">function</span> <span class="token function">modifyObj</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+        obj<span class="token punctuation">.</span>a <span class="token operator">=</span> <span class="token string">'A'</span>
+    <span class="token punctuation">&#125;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code>`;return{c(){s=k("p"),p=m("To change component state and trigger a re-render, just "),t=k("strong"),l=m("assign"),a=m(" to a locally declared variable."),n=O(),o=k("pre"),this.h()},l(e){s=d(e,"P",{});var c=_(s);p=f(c,"To change component state and trigger a re-render, just "),t=d(c,"STRONG",{});var h=_(t);l=f(h,"assign"),h.forEach(u),a=f(c," to a locally declared variable."),c.forEach(u),n=P(e),o=d(e,"PRE",{class:!0});var $=_(o);$.forEach(u),this.h()},h(){z(o,"class","language-html")},m(e,c){g(e,s,c),i(s,p),i(s,t),i(t,l),i(s,a),g(e,n,c),g(e,o,c),o.innerHTML=x},p:B,d(e){e&&u(s),e&&u(n),e&&u(o)}}}function M(r){let s,p;const t=[r[0],w];let l={$$slots:{default:[L]},$$scope:{ctx:r}};for(let a=0;a<t.length;a+=1)l=v(l,t[a]);return s=new G({props:l}),{c(){A(s.$$.fragment)},l(a){T(s.$$.fragment,a)},m(a,n){C(s,a,n),p=!0},p(a,[n]){const o=n&1?R(t,[n&1&&y(a[0]),n&0&&y(w)]):{};n&2&&(o.$$scope={dirty:n,ctx:a}),s.$set(o)},i(a){p||(q(s.$$.fragment,a),p=!0)},o(a){H(s.$$.fragment,a),p=!1},d(a){N(s,a)}}}const w={layout:"section",id:"scriptReactiveAssignments",indent:!0,h:"assignments are 'reactive'",docs:"https://svelte.dev/docs#component-format-script-2-assignments-are-reactive",tutorials:["https://svelte.dev/tutorial/reactive-assignments","https://svelte.dev/tutorial/updating-arrays-and-objects"]};function D(r,s,p){return r.$$set=t=>{p(0,s=v(v({},s),b(t)))},s=b(s),[s]}class Q extends j{constructor(s){super(),S(this,s,D,M,E,{})}}export{Q as default,w as metadata};
