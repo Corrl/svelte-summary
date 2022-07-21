@@ -3,7 +3,7 @@ layout: section
 id: component
 h: "Component"
 docs: "https://svelte.dev/docs#component-format"
-tutorial: "https://svelte.dev/tutorial/basics"
+tutorials: ["https://svelte.dev/tutorial/basics"]
 ---
 There are three sections: **script**, **markup** and **styles**. All are optional.
 ```html

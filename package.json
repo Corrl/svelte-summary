@@ -2,7 +2,7 @@
   "name": "svelte-summary",
   "version": "0.0.1",
   "scripts": {
-    "dev": "vite dev",
+    "dev": "export NODE_ENV=development && vite dev",
     "build": "vite build",
     "package": "svelte-kit package",
     "preview": "vite preview",
@@ -19,7 +19,6 @@
   "type": "module",
   "dependencies": {
     "@fontsource/fira-mono": "^4.5.0",
-    "cookie": "^0.4.1",
-    "panzoom": "^9.4.3"
+    "cookie": "^0.4.1"
   }
 }

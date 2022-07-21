@@ -1,3 +1,4 @@
+<!--suppress JSUnusedAssignment -->
 <script context="module">
     import {writable} from 'svelte/store'
 
@@ -13,9 +14,7 @@
     export let layout = undefined // prevent warning in dev mode
     export let id
     export let h
-    export let prefix = ""
-    export let suffix = ""
-    export let indent
+    export let indent = undefined
 
     export let docs = ''
     export let tutorials = []
@@ -55,13 +54,7 @@
                on:change={persistChecked}
         >
         <h2>
-            <span class="prefix">
-                {prefix}
-            </span>
             {h}
-            <span style="font-weight: normal;">
-                {suffix}
-            </span>
         </h2>
         {#if docs}
             <a href={docs} on:click|stopPropagation title="The official docs' section" target="_blank">
@@ -89,6 +82,7 @@
 
 </div>
 
+<!--suppress CssUnusedSymbol -->
 <style>
     .section {
         position: relative;
@@ -113,7 +107,7 @@
         margin-top: .4rem;
     }
 
-    .indent-section + :global( .no-indent-section) {
+    .indent-section + :global(.no-indent-section) {
         margin-top: 1rem;
     }
 
@@ -138,12 +132,6 @@
     .section-header:hover a,
     .current-section a {
         opacity: 1;
-    }
-
-    .prefix {
-        font-weight: normal;
-        color: var(--grey);
-        font-size: .5em;
     }
 
     h2 {
