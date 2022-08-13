@@ -44,6 +44,10 @@
 
     <slot/>
 
+    <div id="outro">
+        This site was built with <a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a>. You can find the source code in
+        <a href="https://github.com/Corrl/svelte-summary" target="_blank">this repository</a>.
+    </div>
 </div>
 
 <style>
@@ -103,6 +107,12 @@
         font-size: 1.2rem;
         color: var(--prime);
         margin: 2rem 0 1rem 0;
+    }
+
+    #outro {
+        margin-top: 2rem;
+        padding-top: 1rem;
+        border-top: 2px solid black;
     }
 
 </style>
